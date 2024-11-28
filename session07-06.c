@@ -3,7 +3,7 @@
 int main()
 {
 	// khai bao ham 
-	int num[5]={4,4,4,4,4};
+	int num[5]={5,7,2,4,9};
 
     // in va ket thuc
     for (int i = 0; i < 5; i++) {
