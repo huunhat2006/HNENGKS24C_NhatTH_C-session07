@@ -11,19 +11,11 @@ int main()
         scanf("%d", &num[i]);
     }
 
-    // in va ket thuc
-	if(num[0]%2!=0 && num[1]%2!=0 && num[2]%2!=0 && num[3]%2!=0 && num[4]%2!=0){
-		printf("Mang khong chua so chan\n");
-	} 
-	else{
-		for (int i = 0; i < 5; i++) {
-			if(num[i]%2==0){
-				printf("So chan la:%d\n ",num[i]);
-			}
+    // In các ph?n t? c?a m?ng
+    printf("Cac phan tu trong mang la:\n");
+    for (int i = 0; i < 5; i++) {
+        printf("%d ",num[i]);
     }
-	} 
-   
 	return 0;
 
  }
-
